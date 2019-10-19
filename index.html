@@ -5,12 +5,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
     <title>Apple Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/862c83306ca682ad1bbc1e66410f108e?family=Cheddar+Jack" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <header id="home">
+        <div class="menu">
+            <span class="bar"></span>
+        </div>
+        <nav class="nav">
+            <div class="overlay">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#story">Our Story</a>
+                    </li>
+                    <li>
+                        <a href="#menu">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-text">
+            <h1>Welcome</h1>
+            <h2>The Squeeze</h2>
+            <a href="#" class="btn main-btn">Explore</a>
+        </div>
+    </header>
 
+    <section class="our-story" id="story">
+        <div class="container">
+            <h1 class="custom-font">Discover</h1>
+            <h2 class="custom-font-secondary">Our Story</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit natus tempora illum distinctio nostrum
+                dolores cumque et? Rem blanditiis autem iste dicta sit sunt eveniet. Accusamus veniam quas nam porro!
+            </p>
+            <a href="#" class="btn btn-info">Learn more</a>
+            <div class="store"></div>
+        </div>
+    </section>
+    <section class="fresh-ingredients between-sec">
+        <div class="container">
+            <h1 class="custom-font">Fresh</h1>
+            <h2 class="custom-font-secondary between-sec-color">Ingredients</h2>
+        </div>
+    </section>
+
+    <section class="our-menu" id="menu">
+        <div class="container">
+            <h1 class="custom-font">Discover</h1>
+            <h2 class="custom-font-secondary">Our Story</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit natus tempora illum distinctio nostrum
+                dolores cumque et? Rem blanditiis autem iste dicta sit sunt eveniet. Accusamus veniam quas nam porro!
+            </p>
+            <a href="#" class="btn btn-info">Full Menu</a>
+            <div class="image-group">
+                <img src="images/lemonade.jpeg" alt="">
+                <img src="images/lemonade2.jpeg" alt="">
+                <img src="images/lemonade3.jpeg" alt="">
+                <img src="images/lemonade4.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="citrus-goodness between-sec">
+        <div class="container">
+            <h1 class="custom-font">Citrus</h1>
+            <h2 class="custom-font-secondary between-sec-color">Goodness</h2>
+        </div>
+    </section>
+
+    <section class="contact-us" id="contact">
+        <div class="container">
+            <h1 class="custom-font">Contact</h1>
+            <h2 class="custom-font-secondary">Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit natus tempora illum distinctio nostrum
+                dolores cumque et? Rem blanditiis autem iste dicta sit sunt eveniet. Accusamus veniam quas nam porro!
+            </p>
+            <form action="">
+                <input type="text" class="input" name="name" placeholder="Full Name" required>
+                <input type="email" class="input" name="email" placeholder="Email" required>
+                <textarea name="message" class="text-area" placeholder="What can we help you with?" required></textarea>
+                <input type="submit" class="input btn btn-submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="locations">
+            <h4>Locations</h4>
+            <div class="location">
+                <h5>500 Lemonade Rd <br>
+                    Manhattan, NY - 11111
+                </h5>
+            </div>
+        </div>
+
+        <div class="hours">
+            <h4>Hours</h4>
+            <div class="days">
+                <h5>Monday - Saturday <br>
+                    10:30am - 8:00pm
+                </h5>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
